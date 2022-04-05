@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.app-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto auto;
+  width: 375px;
+  height: 812px;
+  background-color: #77aaf7;
+}
+
+.app-field__header {
+  font-size: 42px;
+  margin: 87px 50px 68px 50px;
+  text-align: center;
+}
+
+.app-field__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: black;
+}
+
+.app-field__glass-container {
+  height: 280px;
+  width: 280px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app-field__glass-container--bck {
+  width: 210px;
+  height: 280px;
+}
+
+.app-field__glass-container--fnt {
+  position: absolute;
+  bottom: 10px;
+}
+
+.app-field__glass-container--counter {
+  position: absolute;
+  top: 8px;
+  font-size: 100px;
+  font-weight: 800;
+  color: black;
+}
+
+.app-field__add-btn {
+  height: 47px;
+  width: 216px;
+  margin: 48px auto 0 auto;
+}
+
+.app-field__remove-btn {
+  height: 47px;
+  width: 216px;
+  margin: 12px auto 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
