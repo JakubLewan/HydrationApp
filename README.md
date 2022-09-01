@@ -10,4 +10,6 @@ Simple project that allows to calculate how many glasses of liquids have been co
 >Initially created on  M.Korsan's Webpack Starter Kit for Progressive Web App conversion, eventually simplified as a regular project.  
 
 >TODO: 
- reconfiguration of webpack and conversion to PWA
+
+-storage clear button
+-reconfiguration of webpack and conversion to PWA
